@@ -126,9 +126,7 @@ STATIC_URL = '/static/'
 # )
 
 # Extra lookup directories for collectstatic to find static files
-STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, 'static'),
-)
+
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
@@ -151,9 +149,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+STATICFILES_DIRS = [(os.path.join(BASE_DIR, 'static'),)]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
