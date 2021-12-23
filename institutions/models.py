@@ -1,6 +1,5 @@
 from django.db import models
 
-
 """Toutes nos tables"""
 
 class TypeOrganisation(models.Model):
