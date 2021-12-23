@@ -1,0 +1,8 @@
+django-json-api
+Django
+psycopg2
+django-crispy-forms
+djangorestframework
+djangorestframework-jwt
+Pillow
+django-cors-headers
